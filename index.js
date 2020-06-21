@@ -11,7 +11,7 @@ mongoose.connect(
     //mongodb+srv://alfonso:alfonso123@cluster0-bxdvq.mongodb.net/test?retryWrites=true&w=majority
     // tu tienes que hacerte una db local con compass no una remota con atlas
     // mongodb+srv://alfonso:Panama11@webpersonal.bxdvq.mongodb.net/alfonsodb?retryWrites=true&w=majority
-    `mongodb://${IP_SERVER}:${PORT_DB}/alfonsodb`,
+    `mongodb+srv://alfonso:Panama11@webpersonal.bxdvq.mongodb.net/alfonsodb?retryWrites=true&w=majority`,
     { useNewUrlParser: true, useUnifiedTopology: true }, (err, res) => {
         if (err) {
             throw err;
